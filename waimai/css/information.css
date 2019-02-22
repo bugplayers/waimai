@@ -1,0 +1,311 @@
+.header{
+    margin: 0 auto;
+    width: 7.5rem;
+    height: 0.91rem;
+    background: #ff6700;
+}
+
+.container{
+    width: 7.02rem;
+    height: auto;
+    min-height: 1px;
+    margin: 0 auto;
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+.barContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /*background: yellow;*/
+    width: 7.02rem;
+    height: 100%;
+}
+.barContent p{
+    font-size: 0.3rem;
+    color:white;
+}
+.barContent .iconfont{
+    color: white;
+    font-size: 0.4rem;
+}
+.edit{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: white;
+}
+.edit .iconfont{
+    color: red;
+    position: absolute;
+}
+.box{
+    width: 7.5rem;
+    height: calc(100% - 0.91rem);
+    background: red;
+    position: fixed;
+}
+.content{
+    margin: 0 auto;
+    width:7.02rem ;
+    height:3.5rem ;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.con1{
+    /*margin: 0 auto;*/
+    width: 6.25rem;
+    height: 1.2rem;
+    /*background: white;*/
+}
+.con2{
+    /*margin: 0 auto;*/
+    width: 6.25rem;
+    height: 1.2rem;
+    background: black;
+}
+.con1 img{
+    float: left;
+    /*background: white;*/
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.con1Content{
+    margin-top: 0.18rem;
+    margin-left: 0.3rem;
+    float: left;
+    width: 1.8rem;
+    height: 0.84rem;
+    /*background: yellow;*/
+}
+.con1Content .font{
+    margin-bottom: 0.1rem;
+    font-size: 0.3rem;
+}
+.con1Content img{
+    height: 0.3rem;
+    width: 0.3rem;
+    /*background: #ff6700;*/
+    float: left;
+}
+.num{
+    display: block;
+    float: left;
+    font-size: 0.28rem;
+    margin: 0 0.2rem;
+}
+.price{
+    float: right;
+    width:1rem ;
+    height:0.3rem ;
+    /*background: blue;*/
+    margin-top: 0.45rem;
+}
+.ellipsis{
+    margin-top: 0.2rem;
+    float: right;
+    width: 0.8rem;
+    height: 0.8rem;
+    /*background: #16b0bc;*/
+}
+.slh img{
+    float: right;
+    width: 0.04rem;
+    height: 1.2rem;
+    margin-right: 0.1rem;
+    /*background: #ff6700;*/
+}
+.ellipsis p{
+    line-height: 0.4rem;
+    font-size: 0.26rem;
+}
+.ellipsis span{
+    color: #f7403e;
+    font-size: 0.26rem;
+}
+.price p{
+    font-size: 0.24rem;
+}
+.price p span{
+    font-size: 0.16rem;
+    color: #f61211;
+}
+.circle{
+    width: 7.02rem;
+    height: 0.2rem;
+    /*background: #ff6700;*/
+    background-image: radial-gradient(circle at 0.1rem 0.1rem,white 0,white 0.1rem,transparent 0);
+    background-size: 0.2rem 0.2rem;
+    position: absolute;
+    bottom: -0.1rem;
+}
+.mid{
+    width: 7.02rem;
+    height: 0.8rem;
+    /*background: #16b0bc;*/
+    margin: 0.26rem auto;
+}
+.mid .midLeft{
+    float: left;
+}
+.mid .midLeft p{
+    font-size: 0.3rem;
+    color: white;
+}
+.mid .midLeft span{
+    font-size:0.24rem ;
+}
+.mid .midRight{
+    float: right;
+}
+.midRight span{
+    font-size: 0.22rem;
+}
+.mid .midRight p{
+    text-align: right;
+    font-size: 0.3rem;
+    color: white;
+}
+.information{
+    width: 7.02rem;
+    height: 7.16rem;
+    background: white;
+    margin: 0 auto;
+    padding-top: 0.4rem;
+}
+.information .first{
+    width: 6.53rem;
+    height: 0.8rem;
+    /*background: #16b0bc;*/
+    margin: 0 auto;
+    font-size: 0.22rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    line-height: 0.39rem;
+}
+.yuan,.yuan1,.yuan2,.yuan3,.yuan4,.yuan5,.yuan6{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #ee3e3e;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0.16rem;
+    margin-right: 0.08rem;
+}
+.yuanR,.yuanR2{
+    float: left;
+    /*line-height: 0.8rem;*/
+}
+.yuanR1{
+    float: left;
+    line-height: 0.8rem;
+}
+.yuanR span{
+    color: #f41c1c;
+    font-size: 0.2rem;
+}
+.yuanR2 span{
+    color: rgba(0,0,0,0.5);
+    font-size: 0.2rem;
+}
+.yuan1{
+    background: #00f6ff;
+    margin-top: 0.35rem;
+}
+.yuan2{
+    background: #49f51b;
+    margin-top: 0.35rem;
+}
+.yuan3{
+    background: #f4f701;
+    margin-top: 0.16rem;
+}
+.yuan4{
+    background: #0000ff;
+    margin-top: 0.35rem;
+}
+.yuan5{
+    background: #ff00f6;
+    margin-top: 0.35rem;
+}
+.yuan6{
+    background: #fe8f00;
+    margin-top: 0.35rem;
+}
+.yuan1Content{
+    margin-top: 0.2rem;
+    text-align: center;
+    margin-right: 0.2rem;
+    background: #eb3f3f;
+    width: 1.1rem;
+    height: 0.4rem;
+    float: right;
+    border-radius: 0.4rem;
+    color: white;
+    font-size: 0.2rem;
+}
+.time{
+    margin-top: 0.2rem;
+    text-align: center;
+    margin-right: 0.2rem;
+    /*background: #eb3f3f;*/
+    border: 1px solid rgba(0,0,0,0.28);
+    width: 1.1rem;
+    height: 0.4rem;
+    float: right;
+    border-radius: 0.4rem;
+    color: #eb3f3f;
+    font-size: 0.2rem;
+}
+.link{
+    margin-top: 0.2rem;
+    text-align: center;
+    margin-right: 0.2rem;
+    float: right;
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.7);
+}
+.taste{
+    margin-top: 0.2rem;
+    text-align: center;
+    margin-right: 0.2rem;
+    float: right;
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.7);
+}
+.first .go{
+    width: 0.43rem;
+    height: 0.43rem;
+    background: #979797;
+    border: 1px solid #434242;
+    margin-top: 0.2rem;
+    /*text-align: center;*/
+    margin-right: 0.2rem;
+    float: right;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.go .iconfont{
+    color: rgba(0,0,0,0.3);
+}
+.pay{
+    width: 2.03rem;
+    height: 0.54rem;
+    background: #f51415;
+    border-radius: 0.54rem;
+    margin: 0.3rem auto;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.54rem;
+    color: white;
+}
+

@@ -1,0 +1,472 @@
+.header{
+    margin: 0 auto;
+    width: 7.5rem;
+    height: 2.8rem;
+    background: #ff6700;
+}
+
+.container{
+    width: 7.02rem;
+    height: auto;
+    min-height: 1px;
+    margin: 0 auto;
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    background: #f03233;
+}
+.barContent{
+    margin: 0 auto;
+    width: 7.02rem;
+    height: 100%;
+    /*background: yellow;*/
+}
+.barContent .nav{
+    width:7.02rem ;
+    height: 0.46rem;
+    /*background: blue;*/
+    position: relative;
+}
+.nav img{
+    float: left;
+    height:0.11rem;
+    width: 0.19rem;
+    /*background: #FF7C05;*/
+}
+.nav .iconfont{
+    position:absolute ;
+    line-height: 0.46rem;
+    color: white;
+}
+.nav .navRight{
+    float: right;
+    width:1rem ;
+    height:100% ;
+    /*background: green;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navRight .heart,.navRight .share{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.heart .iconfont,.share .iconfont{
+    color: red;
+    font-size: 0.3rem;
+}
+.introduce{
+    width: 6.25rem;
+    height: 1.86rem;
+    /*background: #16b0bc;*/
+    margin-left: 0.28rem;
+    margin-top: 0.4rem;
+}
+.introduce img{
+    width: 1.16rem;
+    height: 1.16rem;
+    /*background: black;*/
+    float: left;
+}
+.introduce .introduceRight{
+    width: 4.69rem;
+    height: 100%;
+    /*background: #00f6ff;*/
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+.introduceRight .name{
+    font-size: 0.3rem;
+    color: white;
+}
+.introduceRight .address{
+    font-size: 0.24rem;
+    color: white;
+    margin-left: 0.1rem;
+}
+.dw{
+    width: 3rem;
+    height: 0.3rem;
+    /*background: black;*/
+    float: left;
+}
+.distant{
+    display: flex;
+}
+.distant .km{
+    width: 1.14rem;
+    height: 0.33rem;
+    border-radius: 0.33rem;
+    border: 1px solid white;
+    font-size: 0.24rem;
+    text-align: center;
+    background: #f03233;
+    color: white;
+    line-height: 0.31rem;
+    margin-right: 0.2rem;
+}
+.distant .jl,.distant .rmb{
+    font-size: 0.24rem;
+    color: white;
+    margin-right: 0.2rem;
+}
+.distant .give{
+    width: 0.9rem;
+    height: 0.33rem;
+    background: white;
+    color: #f61011;
+    font-size: 0.24rem;
+    border-radius: 0.33rem;
+    text-align: center;
+}
+.jl .circle{
+    margin-top: 0.12rem;
+    margin-right: 0.05rem;
+    border-radius: 0.09rem;
+    float: left;
+    width: 0.09rem;
+    height: 0.09rem;
+    background: white;
+}
+.introduceRight img{
+    background: deeppink;
+}
+.iconfont{
+    position: absolute;
+    /*margin-left: 0.1rem;*/
+}
+.xing{
+    width: 0.2rem;
+    height: 0.2rem;
+    /*background: #FF7C05;*/
+    float: left;
+    margin-right: 0.1rem;
+    color: white;
+}
+.score{
+    font-size: 0.22rem;
+    color: white;
+    line-height: 0.35rem;
+    display: block;
+    float: left;
+    margin-left: 0.15rem;
+}
+.dingCircle{
+    border-radius: 50%;
+    background: white;
+    width: 0.4rem;
+    height: 0.4rem;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+}
+
+
+.order{
+    width: 7.5rem;
+    height: 1rem;
+    background: black;
+    margin: 0 auto;
+    line-height: 1rem;
+    position: relative;
+}
+.order .circle{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: white;
+    border-radius: 50%;
+    float: left;
+    margin:0.45rem 0.1rem 0.45rem 0.5rem;
+}
+.order p{
+    display: block;
+    float: left;
+    font-size: 0.24rem;
+    color: white;
+}
+.circleRepeat{
+    width: 7.5rem;
+    height: 0.2rem;
+    /*background: #ff6700;*/
+    background-image: radial-gradient(circle at 0.1rem 0.1rem,white 0,white 0.1rem,transparent 0);
+    background-size: 0.2rem 0.2rem;
+    position: absolute;
+    bottom: -0.1rem;
+}
+.evaluate{
+    width: 7.5rem;
+    height: 1.1rem;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.3);
+    padding-top: 0.2rem;
+}
+.evaluate .evaluateBox{
+    width:3.7rem ;
+    height: 0.68rem;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-left: 1.9rem;
+    border-radius: 0.52rem;
+}
+.evaluateBox .evaluateLeft{
+    width: 1.81rem;
+    height: 0.52rem;
+    background: #f22425;
+    float: left;
+    border-radius: 0.52rem;
+    margin-top: 0.06rem;
+    margin-left: 0.08rem;
+    font-size: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.52rem;
+}
+.evaluateBox .evaluateRight{
+    color: rgba(0,0,0,0.8);
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.7rem;
+    /*background: yellow;*/
+}
+
+
+.food{
+    margin: 0 auto;
+    width: 7.5rem;
+    height: 7.5rem;
+    background: blue;
+    display: flex;
+    position: relative;
+}
+.foodLeft{
+    width: 1.89rem;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.foodRight{
+    flex-grow: 1;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.food .options{
+    width:1.47rem ;
+    height: 0.47rem;
+    /*background: yellow;*/
+    border-radius: 0.47rem;
+    border: 1px solid #f6100f;
+    color: white;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.foodRight .foodContent{
+    width: 5.12rem;
+    height: 1.8rem;
+    background: white;
+    border-radius: 0.2rem;
+    box-shadow: 0 5px 18px 0 rgba(0,0,0,0.3);
+}
+.foodImage{
+    width: 1.32rem;
+    height: 1.32rem;
+    /*background: #00f6ff;*/
+    margin-left: 0.17rem;
+    margin-top: 0.24rem;
+    float: left;
+}
+.foodContent .message{
+    width: 1.8rem;
+    height: 1.32rem;
+    /*background: #FF7C05;*/
+    float: left;
+    margin-left: 0.34rem;
+    margin-top: 0.24rem;
+}
+.message p{
+    font-size: 0.3rem;
+}
+.xing2{
+    width: 0.2rem;
+    height: 0.2rem;
+    /*background: #FF7C05;*/
+    float: left;
+    margin-right: 0.1rem;
+    color: #f6100f;
+}
+
+.message .price{
+    font-size: 0.26rem;
+    color: #f6100f;
+}
+.message span{
+    font-size: 0.22rem;
+}
+.jia{
+    width:0.52rem ;
+    height: 0.52rem;
+    /*background: #2e6da4;*/
+    float: right;
+    margin-right: 0.3rem;
+    margin-top: 0.64rem;
+}
+.jia img{
+    width: 0.52rem;
+    height: 0.52rem;
+}
+.bottom{
+    width: 7.5rem;
+    height: 0.98rem;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 -2px 10px #a4a1a1;
+    position: fixed;
+    bottom: 0;
+}
+.bottomBox{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    /*background: #16b0bc;*/
+}
+.goods{
+    width: 3rem;
+    height: 0.66rem;
+    /*background: yellow;*/
+    float: left;
+    margin-top: 0.16rem;
+}
+.orders{
+    width: 1.15rem;
+    height: 0.44rem;
+    background: #f6100f;
+    float: right;
+    margin-top: 0.27rem;
+    border-radius: 0.44rem;
+    color: white;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.44rem;
+}
+.goods .image{
+    width: 0.66rem;
+    height: 0.66rem;
+    background: #f6100f;
+    border-radius: 50%;
+    float: left;
+    margin-right: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.goods .without{
+    font-size: 0.18rem;
+}
+.without span{
+    font-size: 0.22rem;
+    color: #f6100f;
+}
+.goods .font{
+    /*background: blue;*/
+    margin-top: 0.1rem;
+}
+.goods .money{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.7);
+}
+.image .iconfont{
+    font-size: 0.4rem;
+    color: white;
+}
+.options:nth-child(2){
+    background: red;
+}
+.gouwuche{
+    width: 7.5rem;
+    height: 2.16rem;
+    background: white;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.gouwucheBox{
+    width: 7.02rem;
+    height:0.5rem ;
+    /*background: yellow;*/
+    margin: 0.16rem auto;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.gouwucheBox p{
+    display: block;
+    float: left;
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.5);
+}
+.gouwucheRight{
+    float: right;
+    /*background: #FF7C05;*/
+    /*width:0.6rem;*/
+    height: 100%;
+    font-size: 0.24rem;
+    margin-left: 0.4rem;
+    line-height: 0.5rem;
+}
+.gouwucheRight .iconfont{
+    font-size: 0.35rem;
+}
+.gouwucheFont{
+    width: 7.02rem;
+    height:0.45rem ;
+    /*background: blue;*/
+    margin: 0.2rem auto;
+    font-size: 0.26rem;
+    line-height: 0.45rem;
+}
+.gouwucheFont p{
+    display: block;
+    float: left;
+}
+.fontRight{
+    /*width: 2rem;*/
+    height: 0.45rem;
+    /*background: red;*/
+    float: right;
+}
+.fontRight1{
+    /*width: 2rem;*/
+    height: 0.45rem;
+    /*background: red;*/
+    /*float: right;*/
+}
+.fontRight .price,.fontRight1 .price{
+    font-size: 0.2rem;
+}
+.fontRight1 .price{
+    margin-left:4.3rem;
+    /*background: black;*/
+}
+.fontRight .price span,.fontRight1 .price span{
+    font-size: 0.26rem;
+    color: #f6100f;
+}
+.fontRight img{
+    float: left;
+    width: 0.45rem;
+    height: 0.45rem;
+    margin: 0 0.1rem;
+}
+

@@ -1,0 +1,375 @@
+#header{
+    margin: 0 auto;
+    width: 7.5rem;
+    height: 0.91rem;
+    background: #ff6700;
+}
+
+.container{
+    width: 7.02rem;
+    height: auto;
+    min-height: 1px;
+    margin: 0 auto;
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topBar:before{
+    content: "";
+    display: block;
+    width: 0.42rem;
+}
+.searchBox{
+    width: 5rem;
+    height: 0.42rem;
+    background: white;
+    border-radius: 0.21rem;
+}
+.scanBox{
+    width: 0.42rem;
+    height: 0.42rem;
+    border-radius: 50%;
+    /*background: white;*/
+}
+.search{
+    width: 0.29rem;
+    height:0.29rem ;
+    margin-left: 0.2rem;
+    margin-right: 0.05rem;
+    margin-top: 0.07rem;
+    float: left;
+    color: rgba(0,0,0,0.6);
+}
+.input{
+    width: 3.8rem;
+    height: 0.25rem;
+    float: left;
+    border: none;
+    margin-top: 0.1rem;
+}
+.camera{
+    float: left;
+    width: 0.33rem;
+    height: 0.25rem;
+    margin-top: 0.07rem;
+    margin-left: 0.14rem;
+    /*background: #16b0bc;*/
+}
+.banner{
+    margin: auto;
+    width: 7.5rem;
+    height: 4.24rem;
+    /*background: yellow;*/
+    box-shadow: 0 5px 16px 0 rgba(83,170,45,0.65);
+    margin-top: 0.29rem;
+    position: relative;
+}
+.banner .imageBox{
+    margin: 0 auto;
+    width: 7.03rem;
+    height:3.97rem ;
+    /*background: red;*/
+    position: relative;
+}
+.imageBox li{
+    width: 7.03rem;
+    height: 3.97rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*background: #16b0bc;*/
+}
+.imageBox li img{
+    width: 7.03rem;
+    height: 3.97rem;
+    display: block;
+}
+.imageBox li.active{
+    z-index: 1;
+}
+.pageBox{
+    width: 1.1rem;
+    height: 0.13rem;
+    position: absolute;
+    top:0.26rem;
+    right: 0.63rem;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+}
+.pageBox li{
+    width: 0.13rem;
+    height: 0.13rem;
+    border-radius: 50%;
+    background: white;
+}
+.pageBox li.active{
+    background: yellow;
+}
+
+.category{
+    width:6.73rem ;
+    height:3.96rem ;
+    margin: 0.99rem auto;
+    /*background: yellow;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.categoryBox{
+    display: block;
+    width: 1.47rem;
+    height: 1.98rem;
+    /*background: blue;*/
+}
+.categoryBox img{
+    width: 1.47rem;
+    height: 1.47rem;
+}
+.categoryBox p{
+    width: 1.47rem;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    font-size: 0.24rem;
+    margin-top: 0.11rem;
+    color: rgba(0,0,0,0.8);
+    text-align: center;
+}
+
+.recommend{
+    width:2rem ;
+    height: 1rem;
+    border: 1px solid #f84608;
+    margin: 0 auto;
+}
+.recommend p{
+    color: #000000;
+    font-size: 0.34rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.recommendContent{
+    margin: 0 auto;
+    width: 7.02rem;
+    height: 4.53rem;
+    margin-top: 0.5rem;
+    /*background: yellow;*/
+}
+.recommendContent .contentImg{
+    margin: 0 auto;
+    width: 7.02rem;
+    height: 3.26rem;
+    /*background: #16b0bc;*/
+}
+.contentImg img{
+    width: 7.02rem;
+    height: 3.26rem;
+}
+.recommendContent .o{
+    margin-top: 0.3rem;
+    font-size: 0.3rem;
+    color:black;
+}
+.recommendContent i{
+    font-size: 0.24rem;
+
+}
+.see{
+    width: 7.02rem;
+    height: 0.44rem;
+    /*background: red;*/
+}
+.see .t{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.5);
+    line-height: 0.44rem;
+}
+.see .right{
+    float: right;
+    width:1.62rem ;
+    height:0.44rem ;
+    background: #16b0bc;
+    border-radius: 0.44rem;
+    background: linear-gradient(to right,#ec7c22,#ff0000);
+}
+.see .left{
+    float: left;
+}
+.see .three{
+    font-size: 0.24rem;
+    color: white;
+    text-align: center;
+    line-height: 0.44rem;
+}
+.see i{
+    float: left;
+    display: block;
+    /*line-height: 0.44rem;*/
+    margin-right: 0.2rem;
+}
+.see img{
+    display: block;
+    float: left;
+    margin-top: 0.12rem;
+    margin-right: 0.1rem;
+}
+.o span{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.5);
+}
+
+.recommend1,.recommend1 img{
+    width:2.48rem ;
+    height: 0.84rem;
+    /*background: yellow;*/
+    margin: 0 auto;
+    position: relative;
+}
+.recommend1 p{
+    position: absolute;
+    font-size: 0.34rem;
+    color: black;
+    left: 0.55rem;
+    top: 0.14rem;
+}
+.box{
+    margin: 0.6rem auto;
+    width: 7.5rem;
+    height: 1.8rem;
+    /*background: yellow;*/
+    position: relative;
+    /*box-shadow: 0 0.05rem 0.4rem black;*/
+}
+.remBox{
+    margin: 0.6rem 0 0.6rem 0.24rem;
+    width: 6.7rem;
+    height: 1.8rem;
+    background: white;
+    position: relative;
+    box-shadow: 0 0.05rem 0.4rem rgba(0, 0, 0, 0.44);
+}
+.remBox .left{
+    margin-left: 0.1rem;
+    float: left;
+    width: 1.41rem;
+    height: 1.41rem;
+    /*background: blue;*/
+    margin-top: 0.195rem;
+}
+.remBox .left img{
+    width: 1.41rem;
+    height: 1.41rem;
+}
+.remBox .right{
+    margin-top: 0.195rem;
+    margin-left: 0.1rem;
+    width: 5rem;
+    height: 1.41rem;
+    /*background: #b0b0b0;*/
+    float: left;
+}
+.remBox .right .pisa{
+    display: block;
+    font-size: 0.3rem;
+    color: black;
+    margin-bottom: 0.15rem;
+}
+.right .font{
+    text-align: center;
+    border-radius: 0.22rem;
+    background: #ff0018;
+    display: block;
+    float: left;
+    font-size: 0.22rem;
+    width: 0.81rem;
+    height: 0.36rem;
+    line-height: 0.36rem;
+}
+.font:nth-child(3){
+    margin: 0 0.1rem;
+    background: #35b125;
+}
+.font:nth-child(4){
+    margin: 0 0.1rem;
+    background: #f84608;
+}
+/*.right img{
+    display: block;
+}*/
+.qiang{
+    float: right;
+    width:0.75rem ;
+    height:0.75rem ;
+    border-radius: 50%;
+    background: #ff6700;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.5rem;
+    font-size: 0.38rem;
+    text-align: center;
+    line-height:0.75rem ;
+}
+.right .smile{
+    width: 2rem;
+    height: 0.5rem;
+    /*background: #78fcff;*/
+    position: absolute;
+    left: 1.55rem;
+    top: 1.3rem;
+}
+.smile img{
+    position: absolute;
+    top:0;
+    left: 0.1rem;
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.smile i{
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+    font-size: 0.24rem;
+}
+.smile1 img{
+    position: absolute;
+    top:1.3rem;
+    left: 3rem;
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.smile1 i{
+    position: absolute;
+    top: 1.3rem;
+    left: 3.4rem;
+    font-size: 0.24rem;
+}
+.boxEnd{
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -0.005rem 0.3rem rgba(0, 0, 0, 0.47);
+    margin: 0 auto;
+    width: 7.5rem;
+    height:0.89rem ;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.endContent{
+    text-align: center;
+    height: 0.75rem;
+    width: 0.52rem;
+    /*background: red;*/
+}
+.endContent img{
+    width: 0.52rem;
+    height: 0.52rem;
+}
+.endContent p{
+    font-size: 0.2rem;
+}

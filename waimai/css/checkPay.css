@@ -1,0 +1,239 @@
+.header{
+    margin: 0 auto;
+    width: 7.5rem;
+    height: 0.91rem;
+    background: #f70909;
+}
+
+.container{
+    width: 7.02rem;
+    height: auto;
+    min-height: 1px;
+    margin: 0 auto;
+    background: blue;
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    /*background: yellow;*/
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: center;
+    color: white;
+}
+.topBar:before{
+    content: "";
+    display: block;
+    width: 0.24rem;
+}
+.font{
+    margin: 0 auto;
+    width: 7.5rem;
+    height: 0.75rem;
+    background: #f70909;
+    font-size: 0.4rem;
+    color: white;
+    display: flex;
+}
+.font:before{
+    content: "";
+    display: block;
+    width: 0.24rem;
+}
+.ways{
+    width: 7.02rem;
+    height: 2.37rem;
+    /*background: #FF7C05;*/
+    margin: 0 auto;
+}
+.ways .waysFont{
+    width: 7.02rem;
+    height: 0.9rem;
+    /*background: blue;*/
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.waysFont .circle{
+    width: 0.09rem;
+    height: 0.09rem;
+    background: #f51414;
+    border-radius: 50%;
+    margin-right: 0.05rem;
+}
+.waysFont p{
+    font-size:0.32rem ;
+    color: rgba(0,0,0,0.5);
+}
+.waysFont .waysFontRight{
+    position: absolute;
+    right: 0;
+    color: #f51212;
+    font-size: 0.36rem;
+}
+.waysFontRight span{
+    font-size: 0.26rem;
+    /*color: black;*/
+}
+.zhifubao,.weixin{
+    position: relative;
+    width: 3.43rem;
+    height: 1.47rem;
+    /*background: white;*/
+    box-shadow: 0 -2px 13px 0 rgba(0,0,0,0.3);
+}
+.zhifubao{
+    float: left;
+}
+.zhifubao p,.weixin p{
+    font-size: 0.3rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 1.2rem;
+}
+.weixin{
+    float: right;
+}
+.zhifubao .iconfont,.weixin .iconfont{
+    font-size: 0.8rem ;
+    color: #5b9ff7;
+    margin-left: 0.2rem;
+}
+.weixin .iconfont{
+    color: #00C800;
+}
+.checkBox{
+    width:7.5rem ;
+    /*height:4.4rem ;*/
+    background: white;
+    margin: -0.1rem auto;
+    box-shadow: 0 -2px 13px 0 rgba(0,0,0,0.3);
+    z-index: 23;
+}
+.checkBox .checkFont{
+    width: 7.02rem;
+    height: 1.4rem;
+    /*background: #FF7C05;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.checkFont .word{
+    font-size: 0.2rem;
+    position: absolute;
+    bottom: 0.2rem;
+    letter-spacing: 0.09rem;
+    color: rgba(0,0,0,0.3);
+}
+.fontBox{
+    /*background: red;*/
+    /*width: 1rem;*/
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+.fontBox p{
+    font-size: 0.32rem;
+}
+.fontBox .circle,.fontBox .circle1,.fontBox .circle2{
+    width:0.1rem ;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: yellow;
+    float: left;
+    margin: 0.1rem;
+}
+.fontBox .circle1{
+    background: blue;
+}
+.fontBox .circle2{
+    background: rgba(0,0,0,0.1);
+}
+.lrBox{
+    width: 7.02rem;
+    height: 3rem;
+    margin: 0 auto;
+    /*background: blue;*/
+    position: relative;
+}
+.lrBox .checkLeft,.lrBox .checkRight{
+    width: 3.44rem;
+    height: 2.8rem;
+    background: white;
+    float: left;
+    box-shadow: 0 2px 13px 0 rgba(0,0,0,0.3);
+}
+.lrBox .checkLeft{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+.lrBox .checkRight{
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.checkLeft .iconfont{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.checkRight .iconfont{
+    /*font-size: 0.2rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.checkLeft .circle,.checkRight .circle{
+    width: 0.84rem;
+    height: 0.84rem;
+    background: #FF7C05;
+    margin:0.2rem 1.3rem;
+    border-radius: 50%;
+}
+.checkRight .circle{
+    background: #fc0a1b;
+}
+.checkLeft p{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.6);
+    /*font-weight: bold;*/
+}
+.checkLeft .english{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.2);
+}
+.six{
+    background: #3ff00f;
+    width: 0.8rem;
+    height: 0.37rem;
+    margin-left: 1.32rem;
+    margin-top: 0.1rem;
+    border-radius: 0.37rem;
+    font-size: 0.22rem;
+    color: white;
+    line-height: 0.37rem;
+}
+.checkRight .iconfont{
+    font-size: 0.8rem;
+}
+.checkRight p{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.6);
+    /*font-weight: bold;*/
+}
+.checkRight .english{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.2);
+}
+
+

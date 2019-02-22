@@ -1,0 +1,145 @@
+.header{
+    margin: 0 auto;
+    width: 7.5rem;
+    height: 0.91rem;
+    background: #ff6700;
+}
+
+.container{
+    width: 7.02rem;
+    height: auto;
+    min-height: 1px;
+    margin: 0 auto;
+}
+.topBar{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(to right,#e95959,#f70909);
+    text-align: center;
+    line-height: 0.88rem;
+}
+.topBar p{
+    font-size: 0.3rem;
+    color: white;
+}
+.content{
+    width:7.5rem ;
+    /*height:10rem ;*/
+    /*background: #ff6700;*/
+    float: left;
+}
+.contentFirst{
+    margin: 0.25rem auto;
+    width:7.02rem ;
+    height:1.86rem ;
+    background: white;
+    box-shadow: 0 0.02rem 0.08rem rgba(0, 0, 0, 0.23);;
+}
+.firstL{
+    float: left;
+    width: 0.98rem;
+    height:100%;
+    background: #f31a19;
+}
+.firstM{
+    float: left;
+    width: 1.38rem;
+    height: 1.38rem;
+    /*background: #cccccc;*/
+    margin-top: 0.24rem;
+    margin-left: -0.66rem;
+}
+.firstM img{
+    width: 1.38rem;
+    height: 1.38rem;
+}
+.firstR{
+    float: left;
+    width: 3rem;
+    height: 1.38rem;
+    /*background: #5f5750;*/
+    margin-left: 0.1rem;
+    margin-top: 0.24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.firstR .f{
+    font-size: 0.3rem;
+    color: black;
+}
+.firstR .s{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.6);
+    line-height: 0.4rem;
+}
+.firstR .t{
+    float: left;
+    text-align: center;
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.6);
+    background: white;
+    width: 0.76rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    border-radius: 0.3rem;
+    border: 1px solid red;
+    margin-right: 0.1rem;
+}
+.firstR .fo{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.6);
+}
+.rightFont{
+    text-align: center;
+    /*width: 2.22rem;*/
+    height: 1.38rem;
+    /*background: #5f5750;*/
+    float: right;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.6);
+    margin-top: 0.24rem;
+    margin-right: 0.24rem;
+}
+.q{
+    margin-top: 0.1rem;
+    margin-bottom: 0.65rem;
+    /*background: red;*/
+}
+span{
+    color: #f61211;
+    font-size: 0.1rem;
+}
+.more{
+    text-align: center;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+}
+
+.boxEnd{
+    position: fixed;
+    bottom: 0rem;
+    box-shadow: 0 -0.005rem 0.3rem rgba(0, 0, 0, 0.47);
+    /*margin: 0 auto;*/
+    width: 7.5rem;
+    height:0.89rem ;
+    /*background: yellow;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.endContent{
+    text-align: center;
+    height: 0.75rem;
+    width: 0.52rem;
+    /*background: red;*/
+}
+.endContent img{
+    width: 0.52rem;
+    height: 0.52rem;
+}
+.endContent p{
+    font-size: 0.2rem;
+}
+
+
